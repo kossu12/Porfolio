@@ -1,0 +1,95 @@
+@media screen and (max-width: 619px) {
+    header {
+        border-bottom: 3px solid #7d97ad;
+        height: 100px;
+    }
+
+    .logo img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .developer {
+        height: 200px;
+    }
+
+    .developer p {
+        font-size: 25px;
+        line-height: 150px;
+    }
+
+    .featured {
+        text-align: center;
+    }
+
+    .content {
+        font-size: 14px;
+        height: 250px;
+    }
+
+    .featured-work {
+        max-width: 470px;
+    }
+
+    .content img {
+        height: 200px;
+    }
+
+    .box {
+        max-width: 400px;
+    }
+}
+
+@media screen and (min-width: 620px) {
+    header {
+        border-bottom: 5px solid #7d97ad;
+        height: 125px;
+    }
+
+    .logo img {
+        margin: 10px;
+        border-radius: 25% 10%;
+        height: 100px;
+        width: 100px;
+    }
+
+    .developer {
+        height: 250px;
+    }
+
+    .developer p {
+        font-size: 35px;
+        line-height: 150px;
+    }
+
+    .content {
+        font-size: 1em;
+        height: 200px;
+    }
+
+    .featured-work {
+        width: 100%;
+    }
+
+    .box {
+        width: 42%;
+        height: 260px;
+    }
+
+    .content img {
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .container {
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .box {
+        width: 245px;
+        height: 260px;
+    }
+}
