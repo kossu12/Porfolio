@@ -1,5 +1,6 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+;
 }
 
 .container {
@@ -52,6 +53,7 @@ header {
 .featured-work {
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 .border {
@@ -84,4 +86,8 @@ footer img {
     width: 30px;
     height: 30px;
     padding: 5px;
+}
+
+footer a {
+    text-decoration: none;
 }
